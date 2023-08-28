@@ -1,0 +1,89 @@
+SpringBoot
+--------------
+
+
+Web Application / Service (Server) Backend 
+
+All the Things which is running on the web and providing some services.
+
+- Google
+- Microsoft
+
+API- Api is the method of the server.
+
+sachin
+
+Request
+https://www.google.com/search?q=Scahin
+
+chrome is the client and the Google is the server and the search is an api which is exposed on the internet
+and we get an response in the form of html.
+
+
+client
+
+-Postman   - we get the response in the form of html
+-Browser
+-Android App 
+
+
+
+User
+---------
+API returns the data in the form of Json or XML.
+JSON
+
+id :1
+name: Ayush
+age : 30
+
+
+THe search api of github which is exposed on the internet
+and returns the JSON OF USERS
+
+https://api.github.com/search/users?q=shashi
+
+https://api.github.com/user/Ayush
+
+
+
+Microservices Architecture
+
+- frontend should be running on different machine and backend should be running on different Machine.
+
+but befaore Microservices
+
+Both are runnging on same macine like Serlet and JSP and PHP
+
+Backend Framework for developing backend Application
+Nodejs -->Not Multithreaded
+SpringBoot
+Django
+
+Creating the class and pass the object is called cammand pattern.
+Encapsulation
+control the data with the help of set Data.
+
+
+Class -Server : services : API
+Abstraction
+hidhing thr implementation
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
