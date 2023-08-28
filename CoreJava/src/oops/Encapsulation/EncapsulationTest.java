@@ -1,4 +1,4 @@
-package oops;
+package oops.Encapsulation;
 
 public class EncapsulationTest {
     public static void main (String[] args)

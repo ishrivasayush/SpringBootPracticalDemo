@@ -1,6 +1,20 @@
-package oops;
+package oops.Encapsulation;
 
 public class Geek {
+
+
+    /*
+    Encapsulation
+Encapsulation in java is mechanism of wrapping the data(variable) and code acting on the data (methods) together as a single unit.
+
+Steps to achieve encapsulation
+1-declare the variabel of class as private.
+2-provide public getter and setter method to view and modify the varibales values.
+
+In Encapsulation, Variables of a class will be hidden from other classes and can be accessed only through the methods of their current class. this concept is known as Data hiding.
+
+
+     */
 
 
         // private variables declared
