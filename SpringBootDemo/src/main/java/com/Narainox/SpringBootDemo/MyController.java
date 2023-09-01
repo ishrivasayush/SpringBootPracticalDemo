@@ -31,7 +31,8 @@ public class MyController {
     }
 
     //http://localhost:8080/searchs?q=Ayushi&p=Abhay
-    @GetMapping("/searc")
+    // @GetMapping("/sears")
+     @GetMapping("/searc")
     public String getWords(@RequestParam String q,@RequestParam String p)
     {
         DataStore db=new DataStore();
