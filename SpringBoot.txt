@@ -69,6 +69,17 @@ Class -Server : services : API
 Abstraction
 hidhing thr implementation
 
+API
+-Soap
+-Rest API
+
+In Get API
+There are two types of parameter
+- query parameter 
+http://localhost:8080/user?q=Ayush
+
+- path parameter
+http://localhost:8080/users/1
 
  
 
