@@ -36,4 +36,21 @@ public class DbUser {
         }
         return null;
     }
+
+    public User addUser(User user) {
+        userList.add(user);
+        return user;
+    }
+
+    public String deleteUser(int id)
+    {
+        for (User user:userList) {
+            if (user.getId()==id)
+            {
+                userList.remove(id);
+                return "User Deleted SuccessFully";
+            }
+        }
+        return "User Not Found";
+    }
 }
