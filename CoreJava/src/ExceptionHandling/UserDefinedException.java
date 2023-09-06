@@ -3,7 +3,7 @@ package ExceptionHandling;
 import java.util.Scanner;
 
 public class UserDefinedException {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
         Account account=new Account(501,5000);
         account.showBalance();
@@ -12,6 +12,10 @@ public class UserDefinedException {
                 account.withDrawMoney(scanner.nextInt());
             }
             catch (InsufficintBalance e)
+            {
+                System.out.println(e.getMessage());
+            }
+            catch (Exception e)
             {
                 System.out.println(e.getMessage());
             }
@@ -27,7 +31,7 @@ class Account{
         this.balance = balance;
     }
 
-    public void withDrawMoney(int ammount) {
+    public void withDrawMoney(int ammount)throws InsufficintBalance,Exception {
         if (balance<ammount)
         {
             throw new InsufficintBalance("Balance is not sufficient.");
