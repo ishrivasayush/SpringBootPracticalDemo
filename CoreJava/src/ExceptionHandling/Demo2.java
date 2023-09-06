@@ -11,5 +11,6 @@ public class Demo2 {
 }
 /*
 Exception are  any abnormal unwanted, extraordinary and unexpected events that may occur at runtime.'
+Catch block ---- Exception Handler
 
  */

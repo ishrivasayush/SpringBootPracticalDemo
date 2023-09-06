@@ -81,6 +81,42 @@ http://localhost:8080/user?q=Ayush
 - path parameter
 http://localhost:8080/users/1
 
+
+
+Maven
+
+- Maven is a build tool which allows us to Develop java application in the easyiest way.
+
+- Dependency-Functionaly that we are incorpating.(peace of code.)
+that is present globlelly
+
+Maven-
+checks for Maven
+
+mvn --version
+
+.m2/  ---Folder contains all the dependancies which are dowloaded form the remote server. means jar
+
+Maven has Three Types of Repository
+-local     ----- local Repoository has dependancies in our System locally.
+
+-central  ----All the peace of code (Dependancies) contains Hosted Globly.
+
+-Remote   ---Repository we are working in the amazon and working on the project and we want a dependency that can,t exposed globlly so we make it remote so it can only access by the employee of Amazon.
+
+- private Access
+
+The maven first check in local repo if the dependancy is present in local system than its return it otherwise it search on Central repo with is present gobally (Downloading from internet).
+
+
+
+GitHub deals with code
+Maven Deals with Depenencies
+
+
+
+
+
  
 
 
