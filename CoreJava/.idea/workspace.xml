@@ -48,9 +48,9 @@
       <recent name="C:\Users\Dell\OneDrive\Desktop\SpringBootProjects\CoreJava\src\oops" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyThread2">
-    <configuration name="MyThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreding.MyThread" />
+  <component name="RunManager" selected="Application.InterThreadCommunication (5)">
+    <configuration name="InterThreadCommunication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreding.InterThreadCommunication" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreding.MyThread" />
+    <configuration name="InterThreadCommunication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreding.InterThreadCommunication" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreding.MyThread" />
+    <configuration name="InterThreadCommunication (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreding.InterThreadCommunication" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreding.MyThread" />
+    <configuration name="InterThreadCommunication (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreding.InterThreadCommunication" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreding.MyThread2" />
+    <configuration name="InterThreadCommunication (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreding.InterThreadCommunication" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyThread2" />
-        <item itemvalue="Application.MyThread (3)" />
-        <item itemvalue="Application.MyThread (2)" />
-        <item itemvalue="Application.MyThread" />
-        <item itemvalue="Application.MyThread (1)" />
+        <item itemvalue="Application.InterThreadCommunication (5)" />
+        <item itemvalue="Application.InterThreadCommunication (4)" />
+        <item itemvalue="Application.InterThreadCommunication (3)" />
+        <item itemvalue="Application.InterThreadCommunication (2)" />
+        <item itemvalue="Application.InterThreadCommunication (1)" />
       </list>
     </recent_temporary>
   </component>
