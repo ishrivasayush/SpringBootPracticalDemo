@@ -23,10 +23,13 @@ public class SpringJpaDemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Book book=new Book();
+		Book book=new Book("Java","Ayush Shrivastava",5500);
 		bookRepository.save(book);
 
-		jp.save(book);
+
+
+
+		// jp.save(book);
 
 
 
