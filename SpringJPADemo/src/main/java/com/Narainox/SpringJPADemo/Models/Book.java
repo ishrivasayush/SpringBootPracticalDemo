@@ -1,9 +1,6 @@
 package com.Narainox.SpringJPADemo.Models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 @NoArgsConstructor
@@ -11,19 +8,24 @@ import lombok.*;
 @Getter
 @Setter
 @Entity
+@ToString
+@Table(name="my_book")
 public class Book {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    @Column(name = "book_name")
+    private String name;
+    @Column(name = "book_author_name")
+    private String authorName;
+    private int cost;
+
+
     public Book(String name, String authorName, int cost) {
         this.name = name;
         this.authorName = authorName;
         this.cost = cost;
     }
-
-    @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private int id;
-    private String name;
-    private String authorName;
-    private int cost;
 }
 
 /*

@@ -8,6 +8,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @SpringBootApplication
 public class SpringJpaDemoApplication implements CommandLineRunner {
 
@@ -23,9 +26,22 @@ public class SpringJpaDemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Book book=new Book("Java","Ayush Shrivastava",5500);
-		bookRepository.save(book);
+		Book book1=new Book("Java","Ayush",5500);
+		Book book2=new Book("Python","Abhay",5200);
 
+		bookRepository.save(book1);
+		bookRepository.save(book2);
+
+
+
+//		bookRepository.save(book7);
+//		bookRepository.saveAll(b);
+//		System.out.println(b);
+
+//		System.out.println(bookRepository.findByAuthorName("Ayush "));
+//		System.out.println(bookRepository.findByAuthorName("Abhay"));
+
+//		System.out.println(bookRepository.findByAuthors("Abhay"));
 
 
 
