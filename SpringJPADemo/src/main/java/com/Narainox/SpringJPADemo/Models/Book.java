@@ -12,7 +12,7 @@ import lombok.*;
 @Table(name="my_book")
 public class Book {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @Column(name = "book_name")
     private String name;
@@ -21,11 +21,28 @@ public class Book {
     private int cost;
 
 
+
+    @ManyToOne
+    @JoinColumn      //Join the primary key of the table BookCategory
+    private BookCategory bookCategory;
+
+
+    public Book( String name, String authorName, int cost, int bookCategory) {
+        this.name = name;
+        this.authorName = authorName;
+        this.cost = cost;
+        this.bookCategory=new BookCategory();
+        this.bookCategory.setId(bookCategory);
+    }
+
+
     public Book(String name, String authorName, int cost) {
         this.name = name;
         this.authorName = authorName;
         this.cost = cost;
     }
+
+
 }
 
 /*
