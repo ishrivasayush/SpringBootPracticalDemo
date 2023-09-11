@@ -35,13 +35,20 @@ public class EmployeeController {
     @GetMapping("{id}")
     public ResponseEntity<Employee> getEmployee(@PathVariable long id)
     {
-        return new ResponseEntity<Employee>(employeeService.getEmployee(id),HttpStatus.OK);
+        return new ResponseEntity<Employee>(employeeService.getEmployee(id),HttpStatus.FOUND);
     }
 
-    // Build  get One Employee By Id Rest API
+    // Build  Delete One Employee By Id Rest API
     @DeleteMapping("{id}")
     public ResponseEntity<String> deleteEmployee(@PathVariable long id)
     {
         return new ResponseEntity<String>(employeeService.deleteEmployee(id),HttpStatus.OK);
+    }
+
+    // Build  Update One Employee By Id Rest API
+    @PutMapping("{id}")
+    public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee,@PathVariable  long id)
+    {
+        return new ResponseEntity<>(employeeService.updateEmployee(employee,id),HttpStatus.OK);
     }
 }

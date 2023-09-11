@@ -52,4 +52,21 @@ public class EmployeeServiceImpl implements EmployeeService {
             throw new ResourceNotFoundException("Employee","id",id);
         }
     }
+
+    @Override
+    public Employee updateEmployee(Employee employee, long id) {
+        Optional<Employee> employee1=employeeRepository.findById(id);
+        if (employee1.isPresent())
+        {
+            Employee employee2=employee1.get();
+            employee2.setFirstName(employee.getFirstName());
+            employee2.setLastname(employee.getLastname());
+            employee2.setEmail(employee.getEmail());
+            employeeRepository.save(employee2);
+            return employee2;
+        }
+        else {
+            throw new ResourceNotFoundException("Employee","id",id);
+        }
+    }
 }
